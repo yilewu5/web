@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Exercise 13</title>
+  <style>
+    div {
+      width: 100px;
+      height: 100px;
+      background-color: pink;
+      margin-bottom: 15px;
+      padding: 5px;
+      font-size: 20px;
+    }
+
+    .box1 {
+      transition: width 2s;
+    }
+    .box1:hover {
+      width: 450px;
+    }
+
+    .box2 {
+      transition: width 2s, height 2s;
+    }
+    .box2:hover {
+      width: 150px;
+      height: 150px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="box1">1</div>
+  <div class="box2">2</div>
+
+</body>
+</html>
